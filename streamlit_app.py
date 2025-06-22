@@ -59,7 +59,7 @@ else:
                     st.markdown(response)
                 st.session_state.messages.append({"role": "assistant", "content": response})
 
-# st.caption("Developed by Tanishq with love <3")
+
 footer_style = """
 <style>
 .footer {
