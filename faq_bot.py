@@ -35,7 +35,7 @@ class FaqBot:
             self.question_vectors = np.load(self.vectors_path)
             with open(self.df_path, 'rb') as f:
                 self.qa_data = pickle.load(f)
-            logging.info("✅ Bot loaded successfully.")
+            logging.info(" Bot loaded successfully.")
         except Exception as e:
             logging.error(f"Failed to load model assets. Error: {e}")
             raise
